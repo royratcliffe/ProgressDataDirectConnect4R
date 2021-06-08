@@ -30,6 +30,16 @@ You can install the released version of ProgressDataDirectConnect4R from [CRAN](
 install.packages("ProgressDataDirectConnect4R")
 ```
 
+## Requirements
+
+Needs Java and `JAVA_HOME`. On Windows you can use Chocolatey to install AdoptOpenJDK 11, or some later version.
+
+    error: JAVA_HOME cannot be determined from the Registry
+
+You can set up the environment variable directly from R using
+
+Sys.setenv(JAVA_HOME = "C:\\Program Files\\AdoptOpenJDK\\jdk-11.0.11.9-hotspot")
+
 ## Downloads
 
 Downloads the evaluation [Jar](https://media.datadirect.com/download/files/evals/JDBC/PROGRESS_DATADIRECT_JDBC_OE_ALL.jar) from Progress. Temporarily unpacks the resources.
