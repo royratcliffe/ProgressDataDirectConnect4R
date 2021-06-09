@@ -30,9 +30,18 @@ You can install the released version of ProgressDataDirectConnect4R from [CRAN](
 install.packages("ProgressDataDirectConnect4R")
 ```
 
+Install the development branch using
+
+    remotes::install_github("royratcliffe/ProgressDataDirectConnect4R@develop")
+
+Once loaded, you can load the OpenEdge JDBC driver using
+
+    > ProgressDataDirectConnect4R::OpenEdge()
+    <JDBCDriver>
+
 ## Requirements
 
-Needs Java and `JAVA_HOME`. On Windows you can use Chocolatey to install AdoptOpenJDK 11, or some later version.
+Needs Java and for Windows you also need `JAVA_HOME`. On Windows you can use Chocolatey to install AdoptOpenJDK 11, or some later version.
 
     error: JAVA_HOME cannot be determined from the Registry
 
