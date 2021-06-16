@@ -3,6 +3,7 @@
 #' Based on Microsoft SQL Server implementation. Subclasses the simulated DBI for Microsoft SQL.
 #' * SELECT uses TOP not LIMIT
 #' * Analysis uses UPDATE STATISTICS rather than ANALYZE
+#' @name backend-openedge
 NULL
 
 #' @export
