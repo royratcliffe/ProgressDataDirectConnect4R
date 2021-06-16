@@ -6,12 +6,12 @@ unzip.Resource1.zip <- function(exdir = tempdir()) {
   file.path(exdir, Resource1.zip)
 }
 
-#' Downloads and unzips DataDirect Connect for JDBC from Progress.
+#' Downloads and unzips DataDirect Connect for JDBC from Progress
 #'
 #' Downloads the 45-megabyte DataDirect JDBC evaluation. Skips the name and
 #' e-mail requirement.
 #'
-#' @param exdir Directory to extract Jar files to; created if necessary.
+#' @param exdir Directory to extract Jar files to; created if necessary
 #' @export
 unzip.jars <- function(exdir = tempdir()) {
   unzip(unzip.Resource1.zip(), exdir = exdir)

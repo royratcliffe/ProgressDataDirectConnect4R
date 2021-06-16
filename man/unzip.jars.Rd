@@ -2,12 +2,12 @@
 % Please edit documentation in R/media.R
 \name{unzip.jars}
 \alias{unzip.jars}
-\title{Downloads and unzips DataDirect Connect for JDBC from Progress.}
+\title{Downloads and unzips DataDirect Connect for JDBC from Progress}
 \usage{
 unzip.jars(exdir = tempdir())
 }
 \arguments{
-\item{exdir}{Directory to extract Jar files to; created if necessary.}
+\item{exdir}{Directory to extract Jar files to; created if necessary}
 }
 \description{
 Downloads the 45-megabyte DataDirect JDBC evaluation. Skips the name and
