@@ -4,9 +4,10 @@
 \alias{backend-openedge}
 \title{Backend: OpenEdge}
 \description{
-Based on Microsoft SQL Server implementation. Subclasses the simulated DBI for Microsoft SQL.
+Based on Microsoft SQL Server implementation. Subclasses the simulated DBI
+for Microsoft SQL.
 \itemize{
-\item SELECT uses TOP not LIMIT
-\item Analysis uses UPDATE STATISTICS rather than ANALYZE
+\item \code{SELECT} uses \code{TOP} not \code{LIMIT}
+\item Analysis uses \verb{UPDATE STATISTICS} rather than \code{ANALYZE}
 }
 }
