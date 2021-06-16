@@ -36,7 +36,9 @@ Install the development branch using
 remotes::install_github("data-science-r/ProgressDataDirectConnect4R@develop")
 ```
 
-Once loaded, you can load the OpenEdge JDBC driver using
+The install also pulls in rJava and RJDBC, the package’s direct and
+indirect dependencies. Once loaded, you can load the OpenEdge JDBC
+driver using
 
 ``` r
 ProgressDataDirectConnect4R::OpenEdge()
