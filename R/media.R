@@ -9,7 +9,10 @@ unzip.Resource1.zip <- function(exdir = tempdir()) {
 #' Downloads and unzips DataDirect Connect for JDBC from Progress
 #'
 #' Downloads the 45-megabyte DataDirect JDBC evaluation. Skips the name and
-#' e-mail requirement.
+#' e-mail requirement. Operates interactively by design. Extracts and caches the
+#' Java archives ready for installation. Run periodically to update.
+#'
+#' Makes you wonder: does caching satisfy the licensing requirement?
 #'
 #' @param exdir Directory to extract Jar files to; created if necessary
 #' @export

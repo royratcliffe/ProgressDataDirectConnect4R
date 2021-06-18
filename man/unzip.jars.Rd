@@ -11,5 +11,9 @@ unzip.jars(exdir = tempdir())
 }
 \description{
 Downloads the 45-megabyte DataDirect JDBC evaluation. Skips the name and
-e-mail requirement.
+e-mail requirement. Operates interactively by design. Extracts and caches the
+Java archives ready for installation. Run periodically to update.
+}
+\details{
+Makes you wonder: does caching satisfy the licensing requirement?
 }
